@@ -1,7 +1,5 @@
 # S2Dnet
-Specular-to-Diffuse Translation for Multi-View Reconstruction.
 
-## Paper
 [Specular-to-Diffuse Translation for Multi-View Reconstruction](https://www.dropbox.com/s/ouvm6hh7ge5zdwy/S2Dnet.pdf?dl=0) 
 ECCV, 2018 
 
