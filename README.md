@@ -45,8 +45,8 @@ $ python train.py --dataroot ../huge_uni_render_rnn --logroot ./logs/job101CP --
 
 Please refer to "./useful_scripts/evaluation/"
 
-Scripts of SIFT, SMVS, and rendering are in "./useful_scripts/evaluation/". 
+Scripts of SIFT, SMVS, and rendering are in "./useful_scripts/". 
 
-Please contact the author for detailed instruction.
+Please contact the author for more information on the code and data.
 
 
