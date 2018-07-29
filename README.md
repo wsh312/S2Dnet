@@ -3,6 +3,10 @@
 [Specular-to-Diffuse Translation for Multi-View Reconstruction](https://www.dropbox.com/s/ouvm6hh7ge5zdwy/S2Dnet.pdf?dl=0) 
 ECCV, 2018 
 
+<p align="center"><img width="100%" src="git_img/teaser.png" /></p>
+
+<p align="center"><img width="100%" src="git_img/network.png" /></p>
+
 <br/>
 
 ## Dependencies
