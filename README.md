@@ -1,7 +1,10 @@
 # S2Dnet
 
 [Specular-to-Diffuse Translation for Multi-View Reconstruction](https://www.dropbox.com/s/ouvm6hh7ge5zdwy/S2Dnet.pdf?dl=0) 
-ECCV, 2018 
+<br/>
+[Shihao Wu](http://shihaowu.net/)<sup> 1</sup>, [Hui Huang](http://vcc.szu.edu.cn/~huihuang/)<sup> 2</sup>, [Tiziano Portenier](http://www.cgg.unibe.ch/staff/tiziano-portenier)<sup> 1</sup>, [Matan Sela](http://matansela.strikingly.com/)<sup> 3</sup>, [Daniel Cohen-Or](https://www.cs.tau.ac.il/~dcor/)<sup> 4</sup>, [Ron Kimmel](http://www.cs.technion.ac.il/~ron/)<sup> 3</sup>, and [Matthias Zwicker](http://www.cs.umd.edu/~zwicker/)<sup> 5</sup>    <br/>
+<sup>1 </sup>University of Bern, <sup>2 </sup>Shenzhen University, <sup>3 </sup>Technion - Israel Institute of Technology, <sup> 4 </sup>Tel Aviv University, <sup>5 </sup>University of Maryland  <br/>
+European Conference on Computer Vision (ECCV), 2018 
 
 <p align="center"><img width="80%" src="git_img/teaser.png" /></p>
 
