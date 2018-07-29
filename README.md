@@ -22,13 +22,16 @@ ECCV, 2018
 
 ### Downloading (Dropbox links)
 
-* [Full multi-view synthetic training data (172 GB)](https://www.dropbox.com/s/0l146k934t8tqqi/huge_uni_render_rnn.zip?dl=0)
-* [Tiny multi-view synthetic training data (3 GB)](https://www.dropbox.com/s/uv8onade36v6pto/tiny_uni_render_rnn.zip?dl=0)
-* [Real training data](https://www.dropbox.com/s/mnvhit9a9ftuxp0/output_color_multi_2.zip?dl=0) 
-* [Some Synthetic testing data](https://www.dropbox.com/s/zfd8p5qwwolr6yx/test_data_rendered.zip?dl=0) 
+* [Large synthetic training data (172 GB)](https://www.dropbox.com/s/0l146k934t8tqqi/huge_uni_render_rnn.zip?dl=0)
+* [Small synthetic training data (3 GB)](https://www.dropbox.com/s/uv8onade36v6pto/tiny_uni_render_rnn.zip?dl=0)
+* [Real training data (7GB)](https://www.dropbox.com/s/0n1ifpurunmdgvo/all_angel_data.zip?dl=0) 
+* [Some Synthetic testing data (1 GB)](https://www.dropbox.com/s/zfd8p5qwwolr6yx/test_data_rendered.zip?dl=0) 
 * [Some Real testing data](https://www.dropbox.com/s/xcc0ywhcb5nuntz/test_data_real.zip?dl=0) 
-* [Aligned 3D models for rendering](https://www.dropbox.com/s/jno3g7867ysvsy6/geometry.zip?dl=0) 
+* [Aligned 3D models for rendering (1.8 GB)](https://www.dropbox.com/s/jno3g7867ysvsy6/geometry.zip?dl=0) 
 * [Environment maps for rendering](https://www.dropbox.com/s/13asq10w7x6vame/textures.zip?dl=0) 
+* [Pretrained networks of pix2pix](https://www.dropbox.com/s/4a060ze3f1qnxav/trained_pix2pix.zip?dl=0) 
+* [Pretrained networks of cycleGAN](https://www.dropbox.com/s/kuh94wtjezz8txs/trained_cyclegan.zip?dl=0) 
+* [Pretrained networks of S2Dnet](https://www.dropbox.com/s/tmkrt7llqasjres/trained_ours.zip?dl=0) 
 
 
 ### Training example
