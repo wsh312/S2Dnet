@@ -47,6 +47,6 @@ Please refer to "./useful_scripts/evaluation/"
 
 Scripts of SIFT, SMVS, and rendering are in "./useful_scripts/". 
 
-Please contact the author for more information on the code and data.
+Please contact the author for more information about the code and data.
 
 
