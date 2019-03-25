@@ -6,11 +6,7 @@ from models.models import create_model
 from util.visualizer import Visualizer
 import os
 import shutil
-from torch.autograd import Variable
-import torch
-from torchvision.utils import save_image
-from util import util
-from PIL import Image
+
 
 opt = TrainOptions().parse()
 
@@ -39,58 +35,7 @@ opt.display_freq = freq
 opt.print_freq = freq
 opt.save_sample_freq = freq * 4
 
-# opt.save_epoch_freq = 2
 
-#opt.save_latest_freq = 2
-
-# freq = 2
-# opt.display_freq = freq
-# opt.print_freq = freq
-# opt.save_sample_freq = freq * 1
-
-
-# show_row = 5
-# show_col = 2
-#
-# fixed_x_set = []
-# fixed_x_boxes = []
-#
-# for k in range(show_col):
-#     fixed_x = []
-#     boxes = []
-#     for i, data in enumerate(dataset):
-#         fixed_x.append(data['A'])
-#         boxes.append(data['A_boxes'])
-#         if i == show_row:
-#             break
-#
-#     fixed_x = torch.cat(fixed_x, dim=0)
-#     fixed_x = Variable(fixed_x, volatile=True).cuda()
-#
-#     fixed_x_set.append(fixed_x)
-#     fixed_x_boxes.append(boxes)
-#
-#
-# def denorm(x):
-#     out = (x + 1) / 2
-#     return out.clamp_(0, 1)
-#
-# def get_crop_img(img_tensor, boxes_set):
-#
-#     img_crop_list = []
-#
-#     for i in range(show_row + 1):
-#         boxes = boxes_set[i]
-#         crop0 = img_tensor[i:i+1, :, int(boxes[0][1].numpy()): int(boxes[0][3].numpy()), int(boxes[0][0].numpy()): int(boxes[0][2].numpy())]
-#         crop1 = img_tensor[i:i+1, :, int(boxes[1][1].numpy()): int(boxes[1][3].numpy()), int(boxes[1][0].numpy()): int(boxes[1][2].numpy())]
-#         crop2 = img_tensor[i:i+1, :, int(boxes[2][1].numpy()): int(boxes[2][3].numpy()), int(boxes[2][0].numpy()): int(boxes[2][2].numpy())]
-#
-#         img_crop = torch.cat((crop0, crop1, crop2), dim=3)
-#         img_crop_list.append(img_crop)
-#
-#     img_crop_list = torch.cat(img_crop_list, dim=0)
-#
-#     return img_crop_list
 
 
 
