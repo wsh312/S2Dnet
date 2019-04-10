@@ -23,6 +23,8 @@ European Conference on Computer Vision (ECCV), 2018
 * [PBRT](http://pbrt.org/scenes-v3.html) (optional for rendering)
 * [CycleGAN](https://github.com/junyanz/CycleGAN) (our code is based on this implementation)
 
+**Update 10/April/2019:** The code has been updated to pytorch 0.4. A single-view synthetic dataset (75 GB) is provided, one can train [pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) or [cycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) on it.
+
 ### Downloading (Dropbox links)
 * [Large single-view synthetic training data (75 GB)](https://www.dropbox.com/s/jeoesbbdkkwuyh8/huge_uni_render_rnn_single_view.zip?dl=0)
 * [Large multi-view synthetic training data (172 GB)](https://www.dropbox.com/s/0l146k934t8tqqi/huge_uni_render_rnn.zip?dl=0)
@@ -47,7 +49,7 @@ European Conference on Computer Vision (ECCV), 2018
 ### Training example
 
 ```bash
-$ python train.py --dataroot ../huge_uni_render_rnn --logroot ./logs/job101CP --name job_submit_101C_re1_pixel --model cycle_gan --no_dropout --loadSize 512 --fineSize 512 --patchSize 256 --which_model_netG unet_512_Re1 --which_model_netD patch_512_256_multi_new --lambda_A 10 --lambda_B 10 --lambda_vgg 5 --norm pixel
+$ python train_multi_view.py --dataroot ../huge_uni_render_rnn --logroot ./logs/job101CP --name job_submit_101C_re1_pixel --model cycle_gan --no_dropout --loadSize 512 --fineSize 512 --patchSize 256 --which_model_netG unet_512_Re1 --which_model_netD patch_512_256_multi_new --lambda_A 10 --lambda_B 10 --lambda_vgg 5 --norm pixel
 ```
 
 
