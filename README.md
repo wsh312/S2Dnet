@@ -24,7 +24,7 @@ European Conference on Computer Vision (ECCV), 2018
 * [CycleGAN](https://github.com/junyanz/CycleGAN) (our code is based on this implementation)
 
 ### Downloading (Dropbox links)
-
+* [Large single-view synthetic training data (75 GB)](https://www.dropbox.com/s/jeoesbbdkkwuyh8/huge_uni_render_rnn_single_view.zip?dl=0)
 * [Large multi-view synthetic training data (172 GB)](https://www.dropbox.com/s/0l146k934t8tqqi/huge_uni_render_rnn.zip?dl=0)
 * [Small multi-view synthetic training data (3 GB)](https://www.dropbox.com/s/uv8onade36v6pto/tiny_uni_render_rnn.zip?dl=0)
 * [Some single-view synthetic training data (40 GB)](https://www.dropbox.com/s/bedjh0iifafiild/uni_render_single.zip?dl=0)
