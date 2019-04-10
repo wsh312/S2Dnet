@@ -25,6 +25,9 @@ European Conference on Computer Vision (ECCV), 2018
 
 **Update 10/April/2019:** The code has been updated to pytorch 0.4. A single-view synthetic dataset (75 GB) is provided, one can train [pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) or [cycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) on it.
 
+**To-do list:**
+* Implement a single-view translation network (with multi-scale discriminator, re-convolution and pixel-normalization) and provide a testing script.
+
 ### Downloading (Dropbox links)
 * [Large single-view synthetic training data (75 GB)](https://www.dropbox.com/s/jeoesbbdkkwuyh8/huge_uni_render_rnn_single_view.zip?dl=0)
 * [Large multi-view synthetic training data (172 GB)](https://www.dropbox.com/s/0l146k934t8tqqi/huge_uni_render_rnn.zip?dl=0)
